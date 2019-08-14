@@ -1,5 +1,16 @@
 # Lua Bundler Webpack Plugin
 
+Bundle to single Lua file with content of bundle as big Lua table with next semantic:
+```
+{
+  {
+    is_entry: Boolean,
+    body: String(content of file),
+    mime: String(mime-type of file),
+  }
+}
+```
+
 ## Install
 ```
 npm i -s @tarantool-front/lua-bundler-webpack-plugin
