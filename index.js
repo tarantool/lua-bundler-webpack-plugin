@@ -49,7 +49,7 @@ class LuaBundlePlugin {
           mime: mime.lookup(fileName)
         }
       }
-      const pathToPacker = path.join(dir, 'pack-front.lua')
+      const pathToPacker = path.relative(process.cwd(), path.join(dir, 'pack-front'))
       mainFs.writeFileSync(buildFoler + '/bundle.json', JSON.stringify(filemap), { encoding: 'utf8' })
       debug('compile bundle.json')
       cp.execSync(lua + ' -l ' + pathToPacker+ ' - build/bundle.json build/' + bundleName)
