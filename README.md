@@ -13,7 +13,7 @@ Bundle to single Lua file with content of bundle as big Lua table with next sema
 
 ## Install
 ```
-npm i -s @tarantool-front/lua-bundler-webpack-plugin
+npm i -s @tarantool.io/lua-bundler-webpack-plugin
 ```
 
 ## Custom options
