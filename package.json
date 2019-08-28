@@ -1,8 +1,8 @@
 {
-  "name": "@tarantool-front/lua-bundler-webpack-plugin",
+  "name": "@tarantool.io/lua-bundler-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/tarantool/enterprise/lua-bundler-webpack-plugin.git"
+    "url": "https://github.com/tarantool/lua-bundler-webpack-plugin.git"
   },
   "version": "1.0.0",
   "description": "Bundle output folder as Lua file with all content and mime type.",
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "debug": "^4.1.1",
     "mime-types": "^2.1.24"
